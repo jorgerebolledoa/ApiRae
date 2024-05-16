@@ -69,7 +69,6 @@ jobs:
         with:
           app-name: 'ApiRae'
           slot-name: 'Production'
-          package: .
+          package: /build
 
-      - name: Run npm start
-        run: npm start
+    
