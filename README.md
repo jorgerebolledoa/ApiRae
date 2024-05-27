@@ -34,15 +34,19 @@ Instrucciones paso a paso sobre cómo instalar tu proyecto. Por ejemplo:
 ### linux
 
 # installs fnm (Fast Node Manager)
+ ```bash
 curl -fsSL https://fnm.vercel.app/install | bash
 
 # download and install Node.js
+ ```bash
 fnm use --install-if-missing 20
 
 # verifies the right Node.js version is in the environment
+ ```bash
 node -v # should print `v20.13.1`
 
 # verifies the right NPM version is in the environment
+ ```bash
 npm -v # should print `10.5.2`
 
 
