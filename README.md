@@ -15,5 +15,6 @@ Instrucciones paso a paso sobre cómo instalar tu proyecto. Por ejemplo:
 2. instala las dependependecia para la api y levanta el servicio:
    - npm i
    - npm run dev
-3. ejecutar el racket
+3. ejecutar el archivo 
+   - ejecutar el archivo paradigma_rae.rkt
 
