@@ -14,8 +14,8 @@ Instrucciones paso a paso sobre cómo instalar tu proyecto. Por ejemplo:
    
 2. instala las dependependecia para la api y levanta el servicio:
      ```bash
-   - npm i
-   - npm run dev
+    npm i
+    npm run dev
 4. ejecutar el archivo 
    - ejecutar el archivo paradigma_rae.rkt
 
