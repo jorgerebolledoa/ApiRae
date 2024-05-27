@@ -22,3 +22,12 @@ Instrucciones paso a paso sobre cómo instalar tu proyecto. Por ejemplo:
 5. ejecutar el archivo 
    - ejecutar el archivo paradigma_rae.rkt
 
+
+
+## Instalación de nodejs 
+### en windows 
+entrar al link 
+ [Node](#https://nodejs.org/en)https://nodejs.org/en
+![image](https://github.com/jorgerebolledoa/ApiRae/assets/99465810/a0cd0dd2-7ac6-4c4d-8723-d5011b6ac828)
+
+
