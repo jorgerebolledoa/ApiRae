@@ -12,22 +12,22 @@ Instrucciones paso a paso sobre cómo instalar tu proyecto. Por ejemplo:
    ```bash
    git clone https://github.com/jorgerebolledoa/ApiRae.git
    
-2. instala las dependependecia para la api y levanta el servicio:
+2. Instala las dependependecia para la api y levanta el servicio:
      ```bash
     npm i
     npm run dev
-3. instala la librería request mediante:
+3. Instala la librería request mediante:
    -raco pkg install request
    
-5. ejecutar el archivo 
+5. Ejecutar el archivo 
    - ejecutar el archivo paradigma_rae.rkt
 
 
 
 ## Instalación de nodejs 
 ### en windows 
-entrar al link 
- [Node](#https://nodejs.org/en)https://nodejs.org/en
+- Entrar al link  [Node](#https://nodejs.org/en)https://nodejs.org/en
+- Hacer click en download nodejs
 ![image](https://github.com/jorgerebolledoa/ApiRae/assets/99465810/a0cd0dd2-7ac6-4c4d-8723-d5011b6ac828)
 
 
