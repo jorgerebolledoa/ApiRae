@@ -1,19 +1,28 @@
 #lang racket
+
 (require request)
 (require json)
 (require net/url)
 
-(display "Ingresa una palabra: ")
-(define word (read-line))
+; Define a function that splits a sentence into words
+(define (split-sentence sentence)
+  (string-split sentence))
 
-(define str1 "http://localhost:3000/api/")
-(define result (string-append str1 word))
+; Read a sentence from the user
+(display "Introduce una frase: ")
+(define user-input (read-line))
 
+; Split the sentence into words
+(define words (split-sentence user-input))
+
+; Function to format definitions
 (define (format-definiciones definicion)
-  (string-join (string-split definicion #px"\d+\. ") "\n\n"))
+  (string-join (string-split definicion #px"\\d+\\. ") "\n\n"))
 
-(define (make-http-request url)
-  (define response (get-pure-port url))
+; Function to make an HTTP request and print the response
+(define (make-http-request word)
+  (define url (string-append "http://localhost:3000/api/" word))
+  (define response (get-pure-port (string->url url)))
   (cond
     ((port? response)
      (let* ((body (port->string response))
@@ -30,7 +39,5 @@
     (else
      (displayln "Error: Failed to make HTTP request"))))
 
-(make-http-request (string->url result))
-
-
-
+; Iterate over each word and make HTTP request
+(for-each make-http-request words)
