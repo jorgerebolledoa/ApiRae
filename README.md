@@ -13,8 +13,9 @@ Instrucciones paso a paso sobre cómo instalar tu proyecto. Por ejemplo:
    git clone https://github.com/jorgerebolledoa/ApiRae.git
    
 2. instala las dependependecia para la api y levanta el servicio:
+     ```bash
    - npm i
    - npm run dev
-3. ejecutar el archivo 
+4. ejecutar el archivo 
    - ejecutar el archivo paradigma_rae.rkt
 
