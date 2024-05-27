@@ -16,6 +16,9 @@ Instrucciones paso a paso sobre cómo instalar tu proyecto. Por ejemplo:
      ```bash
     npm i
     npm run dev
-4. ejecutar el archivo 
+3. instala la librería request mediante:
+   raco pkg install request
+   
+5. ejecutar el archivo 
    - ejecutar el archivo paradigma_rae.rkt
 
